@@ -1,0 +1,8 @@
+2024-09-26 20:42:07,065 | WARNING | Неверный тип данных для имени объекта Runner
+Traceback (most recent call last):
+  File "E:\Проекты Python\12. Поддержка цикла разработки\ДЗ\test_12_4\test_12_4.py", line 28, in test_run
+    some_runner = runner_plus_file.Runner(123)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Проекты Python\12. Поддержка цикла разработки\ДЗ\test_12_4\runner_plus_file.py", line 6, in __init__
+    raise TypeError(f'Имя может быть только строкой, передано {type(name).__name__}')
+TypeError: Имя может быть только строкой, передано int
